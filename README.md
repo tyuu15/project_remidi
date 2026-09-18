@@ -1,13 +1,3 @@
-# Inventory Management API
-**Ujian Remedial — TI253305 Pengembangan Web Sisi Server**
-Program Studi Teknologi Informasi — ITB STIKOM Bali
-
-Back-end web application (REST API) untuk manajemen inventaris toko sederhana,
-dibangun dengan **Node.js + Express + SQLite**. Aplikasi ini dibuat untuk
-memenuhi seluruh ketentuan pada Soal Pemenuhan CPMK03-06.
-
----
-
 ## 1. Daftar Isi
 - [Arsitektur & Teknologi](#2-arsitektur--teknologi)
 - [Struktur Folder](#3-struktur-folder)
