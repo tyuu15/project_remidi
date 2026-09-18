@@ -1,15 +1,4 @@
-## 1. Daftar Isi
-- [Arsitektur & Teknologi](#2-arsitektur--teknologi)
-- [Struktur Folder](#3-struktur-folder)
-- [Cara Menjalankan](#4-cara-menjalankan)
-- [Dokumentasi Endpoint API](#5-dokumentasi-endpoint-api)
-- [Pemenuhan Kriteria Soal (poin a–e)](#6-pemenuhan-kriteria-soal-poin-a–e)
-- [Bukti Pengujian Keamanan](#7-bukti-pengujian-keamanan)
-- [Kolaborasi & Git Workflow (CPMK104)](#8-kolaborasi--git-workflow-cpmk104)
-
----
-
-## 2. Arsitektur & Teknologi
+## 1. Arsitektur & Teknologi
 
 | Komponen | Teknologi | Fungsi |
 |---|---|---|
