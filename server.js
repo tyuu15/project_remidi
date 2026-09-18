@@ -47,5 +47,5 @@ app.use((req, res) => {
 app.use(errorHandler);
 
 app.listen(PORT, () => {
-  console.log(`✅ Server berjalan di http://localhost:${PORT}`);
+  console.log(` Server berjalan di http://localhost:${PORT}`);
 });
