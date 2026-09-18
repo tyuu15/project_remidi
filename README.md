@@ -77,22 +77,22 @@ dibuat saat server pertama kali dijalankan (lihat `db/database.js`).
 |---|---|---|---|
 | POST | `/api/users/register` | - | Registrasi user baru (password di-hash) |
 | POST | `/api/users/login` | - | Login, mengembalikan JWT token |
-| GET | `/api/users` | ✅ | Lihat semua user |
-| GET | `/api/users/:id` | ✅ | Lihat detail user |
-| PUT | `/api/users/:id` | ✅ | Update data user |
-| DELETE | `/api/users/:id` | ✅ | Hapus user |
+| GET | `/api/users` | centang | Lihat semua user |
+| GET | `/api/users/:id` | centang | Lihat detail user |
+| PUT | `/api/users/:id` | centang | Update data user |
+| DELETE | `/api/users/:id` | centang | Hapus user |
 
 ### Products (berelasi ke Users via `user_id`)
 | Method | Endpoint | Auth | Keterangan |
 |---|---|---|---|
-| POST | `/api/products` | ✅ | Tambah produk baru |
-| GET | `/api/products` | ✅ | Lihat semua produk (JOIN ke pemilik) |
-| GET | `/api/products/:id` | ✅ | Lihat detail produk |
-| PUT | `/api/products/:id` | ✅ | Update produk (hanya pemilik) |
-| DELETE | `/api/products/:id` | ✅ | Hapus produk (hanya pemilik) |
+| POST | `/api/products` | centang | Tambah produk baru |
+| GET | `/api/products` | centang | Lihat semua produk (JOIN ke pemilik) |
+| GET | `/api/products/:id` | centang | Lihat detail produk |
+| PUT | `/api/products/:id` | centang | Update produk (hanya pemilik) |
+| DELETE | `/api/products/:id` | centang | Hapus produk (hanya pemilik) |
 
 **Cara autentikasi:** setelah login, sertakan header
-`Authorization: Bearer <token>` pada setiap request ke endpoint yang bertanda ✅.
+`Authorization: Bearer <token>` pada setiap request ke endpoint yang bertanda centang.
 
 Contoh request lengkap ada di bagian [7. Bukti Pengujian Keamanan](#7-bukti-pengujian-keamanan).
 
